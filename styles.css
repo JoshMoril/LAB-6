@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.notice {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.notice p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.transcript-header {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.transcript-header h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.transcript-header p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Set margin to zero */
+    background-color: #ffffff;
+    font-size: small;
+    font-weight: 10;
+    border: 1px solid black; /* Black border for the table */
+}
+
+/* Adjust the width of each column */
+th:nth-child(1), td:nth-child(1) { width: 10%; } /* Course */
+th:nth-child(2), td:nth-child(2) { width: 18%; } /* Description */
+th:nth-child(3), td:nth-child(3) { width: 5%; } /* Unit */
+th:nth-child(4), td:nth-child(4) { width: 8%; } /* Grade */
+th:nth-child(5), td:nth-child(5) { width: 10%; } /* Remarks */
+th:nth-child(6), td:nth-child(1) { width: 10%; } /* Course */
+th:nth-child(7), td:nth-child(6) { width: 11%; } /* Term */
+
+
+th, td {
+    padding: 12px;
+    text-align: center; /* Center the content */
+    border: 1px solid black; /* Black border for table cells */
+}
+
+th {
+    background-color: #539fea; /* Title row color */
+    color: white;
+}
+
+thead tr:nth-child(2) th {
+    background-color: rgba(104, 104, 104, 0.306); /* Light gray color for the second row */
+    color: black;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.sem {
+    background-color: skyblue;
+}
+
+table:nth-of-type(4) tr:nth-child(7) {
+    background-color: white; /* Change to your desired color */
+    color: black; /* Adjust text color for readability */
+}
+table:nth-of-type(7) tr:nth-child(1) {
+    background-color: skyblue; /* Change to your desired color */
+    color: black; /* Adjust text color for readability */
+}
